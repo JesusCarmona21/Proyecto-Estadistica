@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Estadística Descriptiva</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Estadística Descriptiva</h1>
+        <div class="input-container">
+            <label for="data">Ingresa tus datos separados por comas:</label>
+            <input type="text" id="data" placeholder="Ejemplo: 1, 2, 3, 4, 5">
+            <button id="calculateBtn">Calcular</button>
+        </div>
+        <div class="results">
+            <p>Media: <span id="meanResult"></span></p>
+            <p>Mediana: <span id="medianResult"></span></p>
+            <p>Moda: <span id="modeResult"></span></p>
+            <p>Varianza: <span id="varianceResult"></span></p>
+            <p>Desviación Estándar: <span id="stdDeviationResult"></span></p>
+        </div>
+        <canvas id="dataChart" width="400" height="200"></canvas>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
