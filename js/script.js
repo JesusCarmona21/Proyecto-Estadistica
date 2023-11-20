@@ -1,7 +1,9 @@
+// Obtener referencia al botón de cálculo y agregar un evento de clic
 document.addEventListener("DOMContentLoaded", function () {
     const calculateBtn = document.getElementById("calculateBtn");
     calculateBtn.addEventListener("click", calculateStatistics);
 
+       // Obtener referencias a los elementos del DOM
     function calculateStatistics() {
         const dataInput = document.getElementById("data");
         const meanResult = document.getElementById("meanResult");
